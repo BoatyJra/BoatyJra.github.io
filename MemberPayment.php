@@ -69,7 +69,7 @@ if (isset($_POST["submit"])) {
 </head>
 
 
-<body style="background-image: url(bg.jpg);  background-position: center; background-attachment: fixed;">
+<body style="background-image: url(./aseet/bg.jpg);  background-position: center; background-attachment: fixed;">
 
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light" style="box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19); background-color: #ffcc66;">

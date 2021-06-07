@@ -23,6 +23,7 @@ $trailer = mysqli_real_escape_string($conn,$_POST['trailer']);
     VALUES ('$name', '$image', '$date_in', '$date_out', '$duration', '$rating', '$fund', '$limit', '$status', '$description', '$trailer')";
 
 
+
 if (mysqli_query($conn,$query))
     {
     echo "Data Inserted";
@@ -31,4 +32,3 @@ else
     {
     echo "Error";
     }
-?>

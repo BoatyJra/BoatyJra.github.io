@@ -15,12 +15,12 @@
     </style>
 </head>
 
-<body style="background-image: url(bg.jpg);  background-position: center; background-attachment: fixed;">
+<body style="background-image: url(./asset/bg.jpg);  background-position: center; background-attachment: fixed;">
   
   <!-- Header -->
   <nav class="navbar navbar-expand-lg navbar-light" style = "box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19); background-color: #ffcc66;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php"><img src="LogoColor.png" alt = "BobaByBoat" width="130px" height="80px"/></a>
+        <a class="navbar-brand" href="index.php"><img src="./asset/LogoColor.png" alt = "BobaByBoat" width="130px" height="80px"/></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -66,7 +66,7 @@
             <div style="flex: 1; width: 100%;">
               <div class="logo" style=" text-align: center;">
                 <img
-                  src="LogoColor.png"
+                  src="./asset/LogoColor.png"
                   style="width: 105px; height: 65px;"
                   alt=""
                 />

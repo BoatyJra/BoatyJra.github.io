@@ -48,9 +48,6 @@ $bname = $brow['Branch_Name'];
         <ul class="navbar-nav me-6 mb-2 mb-lg-0">
           <li class="dropdown">
             <a href="indexStaff.php" class="nav-link" >Back to Staff Index  </a>
-            <ul class="dropdown-menu">
-              <li><a href="logout.php"><i class="fa fa-fw fa-power-off"></i> Logout</a></li>
-            </ul>
           </li>
         </ul>
       </div>

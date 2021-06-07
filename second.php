@@ -99,8 +99,6 @@ if (isset($_GET["Showtime_ID"])) {
   <!-- Header -->
   <!-- Header -->
 
-
-
   <nav class="navbar navbar-expand-lg navbar-light" style="box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19); background-color: #ffcc66;">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php"><img src="./asset/LogoColor.png" alt="BobaByBoat" width="130px" height="80px" /></a>
@@ -149,7 +147,7 @@ if (isset($_GET["Showtime_ID"])) {
                   $result = mysqli_query($mysqli, $fetch);
                   $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-                  if (count($movie) > 0) { ?>
+                  if (count($movie) > 0) {?>
 
                     <img src='asset/com.png'><br>
                     <?= $i; ?>
@@ -178,7 +176,7 @@ if (isset($_GET["Showtime_ID"])) {
                   $result = mysqli_query($mysqli, $fetch);
                   $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-                  if (count($movie) > 0) { ?>
+                  if (count($movie) > 0) {?>
                     <img src='asset/com.png'><br>
                     <?= $i; ?>
                   <?php } else { ?>
@@ -206,7 +204,7 @@ if (isset($_GET["Showtime_ID"])) {
                   $result = mysqli_query($mysqli, $fetch);
                   $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-                  if (count($movie) > 0) { ?>
+                  if (count($movie) > 0) {?>
                     <img src='asset/com.png'><br>
                     <?= $i; ?>
                   <?php } else { ?>
@@ -241,10 +239,10 @@ if (isset($_GET["Showtime_ID"])) {
                 $sql_ = select("select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id' ");
                 $chk = $sql_[0];
                 $fetch = "select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id'";
-                $result = mysqli_query($mysqli, $fetch);
-                $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                  $result = mysqli_query($mysqli, $fetch);
+                  $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-                if (count($movie) > 0) { ?>
+                  if (count($movie) > 0) {?>
                   <img src='asset/com.png'><br>
                   <?= $i; ?>
                 <?php } else { ?>
@@ -270,10 +268,10 @@ if (isset($_GET["Showtime_ID"])) {
                 $sql_ = select("select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id' ");
                 $chk = $sql_[0];
                 $fetch = "select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id'";
-                $result = mysqli_query($mysqli, $fetch);
-                $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                  $result = mysqli_query($mysqli, $fetch);
+                  $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-                if (count($movie) > 0) { ?>
+                  if (count($movie) > 0) {?>
                   <img src='asset/com.png'><br>
                   <?= $i; ?>
                 <?php } else { ?>
@@ -298,10 +296,10 @@ if (isset($_GET["Showtime_ID"])) {
                 $sql_ = select("select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id' ");
                 $chk = $sql_[0];
                 $fetch = "select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id'";
-                $result = mysqli_query($mysqli, $fetch);
-                $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                  $result = mysqli_query($mysqli, $fetch);
+                  $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-                if (count($movie) > 0) { ?>
+                  if (count($movie) > 0) {?>
                   <img src='asset/com.png'><br>
                   <?= $i; ?>
                 <?php } else { ?>
@@ -335,10 +333,10 @@ if (isset($_GET["Showtime_ID"])) {
                 $sql_ = select("select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id' ");
                 $chk = $sql_[0];
                 $fetch = "select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id'";
-                $result = mysqli_query($mysqli, $fetch);
-                $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                  $result = mysqli_query($mysqli, $fetch);
+                  $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-                if (count($movie) > 0) { ?>
+                  if (count($movie) > 0) {?>
                   <img src='asset/com.png'><br>
                   <?= $i; ?>
                 <?php } else { ?>
@@ -364,10 +362,10 @@ if (isset($_GET["Showtime_ID"])) {
                 $sql_ = select("select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id' ");
                 $chk = $sql_[0];
                 $fetch = "select * from seat where Seat_Number='$i' and Showtime_ID ='$showtime_id'";
-                $result = mysqli_query($mysqli, $fetch);
-                $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                  $result = mysqli_query($mysqli, $fetch);
+                  $movie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-                if (count($movie) > 0) { ?>
+                  if (count($movie) > 0) {?>
                   <img src='asset/com.png'><br>
                   <?= $i; ?>
                 <?php } else { ?>
@@ -387,28 +385,27 @@ if (isset($_GET["Showtime_ID"])) {
     </div>
     <br>
     <div class="text-start">
-
+  
       <input type="hidden" name="movie" value="<?= $showResult['Movie_Name'] ?>">
       <input type="hidden" name="showtime" value="<?= $showResult['Showtime'] ?>">
       <input type="hidden" name="branch" value="<?= $showResult['Branch_Name'] ?>">
       <input type="hidden" name="theater" value="<?= $showResult['Theater_ID'] ?>">
       <input type="hidden" name="showtimeid" value="<?= $showtime_id ?>">
     </div>
-
+    
     <div class="text-end float-end">
       <button class="btn btn-success">Next</button>
     </div>
     </form>
-
+    
     <a href="index.php">
-      <button class="btn btn-primary">Back</button>
+    <button class="btn btn-primary">Back</button>
     </a>
     <br>
     <br>
-
+    
   </div>
   <br>
 
-  <?php require "footer.php" ?>
-
+<?php require "footer.php" ?>
   </html>

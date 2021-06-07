@@ -74,7 +74,7 @@ if (isset($_GET["e"])) {
     <title>Boba Cineplex</title>
 </head>
 
-<body style="background-image: url(bg.jpg);  background-position: center; background-attachment: fixed;">
+<body style="background-image: url(./asset/bg.jpg);  background-position: center; background-attachment: fixed;">
 
     <!-- Header -->
     <div id="non-printable">

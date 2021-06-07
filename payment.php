@@ -11,6 +11,7 @@ $data = array(
     'Payment_method'    =>    $payment_type,
     'Amount_Paid'        =>    $total,
     'Payment_Date'     =>     $date,
+    'Description'	=>	"Ticket"
 );
 insert('payment', $data);
 ?>

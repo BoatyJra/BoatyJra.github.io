@@ -32,8 +32,8 @@ $branch_id = $_SESSION['branch'];
                     <tr>
                         <th width="35%">Image</th>
                         <th width="35%">Name</th>
-                        <th width="10%">View</th>
-                        <th width="10%">Delete</th>
+                        <th width="15%">View</th>
+                        <th width="15%">Delete</th>
                     </tr>
                     <?php
                     $query = "SELECT * FROM movie";

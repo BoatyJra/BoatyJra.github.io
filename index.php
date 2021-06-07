@@ -102,7 +102,7 @@
             <div class="col-sm-6 m-auto d-inline float-start">
               <!-- Carousel Test -->
               <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
+                  <div class="carousel-inner">                  
                     <div class="carousel-item active" data-bs-interval="4000">
                       <img src="./asset/fast7acc.jpg" class="d-block w-100 float-start border border-dark border-4" style="height: 375px;" alt="...">
                     </div>
